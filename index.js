@@ -10,7 +10,11 @@
  */
 
 const
-    lodash = require('lodash'),
+    lodash = {
+        get: require('lodash.get'),
+        set: require('lodash.set'),
+        cloneDeep: require('lodash.clonedeep')
+    },
     is = require('@sindresorhus/is');
 
 const RecursiveSymbol = Symbol('Regexp');
