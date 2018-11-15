@@ -1,0 +1,23 @@
+{
+  "name": "checkobject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supernovel/checkObject.git"
+  },
+  "author": "ekfueh@naver.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/supernovel/checkObject/issues"
+  },
+  "homepage": "https://github.com/supernovel/checkObject#readme",
+  "dependencies": {
+    "@sindresorhus/is": "^0.13.0",
+    "lodash": "^4.17.11"
+  }
+}
